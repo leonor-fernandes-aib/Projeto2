@@ -1,0 +1,82 @@
+
+/* Estilo geral da página */
+body {
+    background-color: #F1EBDD;
+    font-family: Garamond, Georgia, serif;
+    color: #39352E;
+    margin: 30px;
+}
+
+/* Título principal */
+h1 {
+    color: #263D35;
+    font-family: Georgia, serif;
+    text-align: center;
+    font-size: 36px;
+}
+
+/* Subtítulos */
+h2 {
+    color: #76543A;
+    font-family: Georgia, serif;
+    font-size: 25px;
+    border-bottom: 2px solid #D6C49A;
+    padding-bottom: 5px;
+}
+
+/* Títulos dos três tópicos */
+h3 {
+    color: #263D35;
+    font-family: Georgia, serif;
+}
+
+/* Classe de destaque */
+.destaque {
+    background-color: #D6C49A;
+    color: #39352E;
+    margin: 20px;
+    padding: 15px;
+    border-left: 5px solid #263D35;
+    line-height: 1.6;
+}
+
+/* Parágrafos */
+p {
+    line-height: 1.7;
+    font-size: 18px;
+}
+
+/* Lista de personagens */
+li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+/* Blocos div */
+div {
+    background-color: #E8E1D2;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Imagem do filme */
+img {
+    display: block;
+    margin: 25px auto;
+    max-width: 100%;
+    height: auto;
+    border: 4px solid #76543A;
+}
+
+/* Hiperligação */
+a {
+    color: #263D35;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Efeito ao passar o rato no link */
+a:hover {
+    color: #76543A;
+    text-decoration: underline;
+}
